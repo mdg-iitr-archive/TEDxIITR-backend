@@ -24,10 +24,10 @@ class Speaker(models.Model):
 class Organizer(models.Model):
     name = models.CharField(max_length=50)
     designation = models.CharField(max_length=50)
-    facebook = models.URLField(default="https://www.facebook.com/")
-    linkedin = models.URLField(default="https://www.linkedin.com/")
+    facebook = models.URLField(null=True)
+    linkedin = models.URLField(null=True)
+    twitter = models.URLField(null=True)
     profile_pic = models.ImageField(upload_to='speakers')
-    # twitter = models.URLField(default="https://www.twitter.com/")
 
 
 class Sponsor(models.Model):

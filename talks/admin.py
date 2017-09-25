@@ -1,3 +1,7 @@
 from django.contrib import admin
+from talks.models import *
 
-# Register your models here.
+admin.site.register(Event)
+admin.site.register(Speaker)
+admin.site.register(Organizer)
+admin.site.register(Sponsor)
