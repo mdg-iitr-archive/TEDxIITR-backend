@@ -5,7 +5,9 @@ from talks import views
 urlpatterns = [
     url('events/$', views.EventView.as_view(), name='events'),
     url('speakers/$', views.SpeakerView.as_view(), name='speakers'),
-    url('speakers/(?P<year>[0-9]+)/$', views.SpeakerYearView.as_view(), name='speakers-year'),
+    url('speakers/year/(?P<year>[0-9]+)/$', views.SpeakerYearView.as_view(), name='speakers-year'),
+    url('speakers/event/(?P<event>[0-9]+)/$', views.SpeakerEventView.as_view(), name='speakers-event'),
     url('organizers/$', views.OrganizerView.as_view(), name='organizers'),
     url('sponsors/$', views.SponsorView.as_view(), name='sponsors'),
+    url('sponsors/event/(?P<event>[0-9]+)/$', views.SponsorsEventView.as_view(), name='sponsors-event'),
 ]

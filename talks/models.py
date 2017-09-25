@@ -19,6 +19,7 @@ class Speaker(models.Model):
     linkedin = models.URLField(null=True)
     twitter = models.URLField(null=True)
     profile_pic = models.ImageField(upload_to='speakers', null=True, blank=True)
+    event = models.ForeignKey(Event, related_name='speaker')
 
 
 class Organizer(models.Model):
@@ -34,3 +35,4 @@ class Sponsor(models.Model):
     name = models.CharField(max_length=50)
     link = models.URLField()
     image = models.ImageField(upload_to='sponsors', null=True, blank=True)
+    event = models.ForeignKey(Event, related_name='sponsor')

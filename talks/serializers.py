@@ -6,7 +6,7 @@ from talks.models import *
 class EventSerializer(serializers.ModelSerializer):
     class Meta:
         model = Event
-        fields = ('theme', 'description', 'timestamp', 'image')
+        fields = ('id', 'theme', 'description', 'timestamp', 'image')
 
 
 class SpeakerSerializer(serializers.ModelSerializer):
