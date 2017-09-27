@@ -1,6 +1,7 @@
 from django.conf.urls import url
-
+from django.conf.urls.static import static
 from talks import views
+from tedxiitr import settings
 
 urlpatterns = [
     url('events/$', views.EventView.as_view(), name='events'),
@@ -10,4 +11,4 @@ urlpatterns = [
     url('organizers/$', views.OrganizerView.as_view(), name='organizers'),
     url('sponsors/$', views.SponsorView.as_view(), name='sponsors'),
     url('sponsors/event/(?P<event>[0-9]+)/$', views.SponsorsEventView.as_view(), name='sponsors-event'),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

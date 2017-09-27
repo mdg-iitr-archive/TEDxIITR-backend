@@ -15,18 +15,17 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'eq(th$czw_5jlcd=b4o!shp7vf)pmo^wnvm(u5w+z2zg8232g3'
+# SECRET_KEY='eq(th$czw_5jlcd=b4o!shp7vf)pmo^wnvm(u5w+z2zg8232g3'
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['0.0.0.0', ]
 
 # Application definition
 
@@ -71,20 +70,26 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'tedxiitr.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'tedx',
-        'USER': 'tester',
-        'PASSWORD': 'tester',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'tedx',
+#         'USER': 'tester',
+#         'PASSWORD': 'tester',
+#         'HOST': 'localhost',
+#         'PORT': '',
+#     }
+# }
+
+
+import dj_database_url
+if 'DATABASE_URL' not in os.environ:
+    print("Database url not found")
+
+DATABASES = {'default': dj_database_url.config()}
 
 
 # Password validation
@@ -105,7 +110,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
@@ -119,8 +123,14 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
+# STATIC_URL = '/static/'
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
