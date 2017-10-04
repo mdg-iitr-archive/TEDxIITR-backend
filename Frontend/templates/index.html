@@ -1,11 +1,11 @@
-
+{% load static %}
 {% include "mainframe.html" %}
 <style>#header2{display: none;}</style>
 <div id="main">
    <div class="navbar navbar-default header" id="header1">
       <div class="container-fluid">
          <div class="row">
-            <div class="col-md-5 header_logo"><img src="img/mainlogo.png" class="img-responsive header_logo1"></div>
+            <div class="col-md-5 header_logo"><img src='{% static "img/mainlogo.png" }' class="img-responsive header_logo1"></div>
             <div class="col-md-7">
                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"> <span class="icon-bar"></span> <span class="icon-bar"></span><span class="icon-bar"></span> <span class="icon-bar"></span></button>
                <div class="collapse navbar-collapse navHeaderCollapse">
@@ -20,7 +20,7 @@
             </div>
          </div>
       </div>
-      <div class="main_building_img_div"> <img src="img/img6.png" class="main_building_img"></div>
+      <div class="main_building_img_div"> <img src='{% static "img/img6.png" %}' class="main_building_img"></div>
    </div>
 </div>
 {% include "header.html" %}
@@ -52,7 +52,7 @@
                <div class="col-xs-9 col-xs-offset-0 theme_content text-justify"> <br>The theme for TEDxIITRoorkee 2017 is symphonic chaos. The theme underlines the beauty of spont,the 'chaos' and how an unorderly universe is the reason for our very existence. The fundamentalism of the idea of chaos is the real beauty itself, thus giving birth to the notion of 'perfectly imperfect'life. In our real world, it is because of this unpredictability that opportunities arise, through which success is achieved.</div>
             </div>
          </div>
-         <div class="col-xs-4"><img class="theme_img" src="img/Group4.png"></div>
+         <div class="col-xs-4"><img class="theme_img" src='{% static "img/Group4.png" %}'></div>
       </div>
    </div>
 </div>
@@ -64,43 +64,43 @@
       <ul class="nav nav-tabs tab_list" role="tablist" style="border: none;text-align: center;">
          <li role="presentation" class="active" style="float:none;display:inline-block;">
             <div style="text-align: center;" data-toggle="tab" href="#speaker1" class="tab1">
-               <img class="speakers_tab_img" src="img/Group44b.png" id="image1" onmouseover="in1()" onmouseout="out2()">
+               <img class="speakers_tab_img" src='{% static "img/Group44b.png" %}' id="image1" onmouseover="in1()" onmouseout="out2()">
                <p class="speaker_tab_name" id="image1_name" style="color: #ff2b06">VIVEK AGNIHOTRI</p>
             </div>
          </li>
          <li role="presentation" style="float:none;display:inline-block;">
             <div style="text-align: center;" data-toggle="tab" href="#speaker2" class="tab2">
-               <img class="speakers_tab_img" src="img/Group32a.png" id="image2" onmouseover="in2()" onmouseout="out2()">
+               <img class="speakers_tab_img" src='{% static "img/Group32a.png" %}' id="image2" onmouseover="in2()" onmouseout="out2()">
                <p class="speaker_tab_name" id="image2_name">SUSHRUTI KRISHNA</p>
             </div>
          </li>
          <li role="presentation" style="float:none;display:inline-block;">
             <div style="text-align: center;" data-toggle="tab" href="#speaker3" class="tab3">
-               <img class="speakers_tab_img active" src="img/Group37a.png" id="image3" onmouseover="hoverimagein3()" onmouseout="hoverimageout3()" onclick="hoverimagein3()">
+               <img class="speakers_tab_img active" src='{% static "img/Group37a.png" %}' id="image3" onmouseover="hoverimagein3()" onmouseout="hoverimageout3()" onclick="hoverimagein3()">
                <p class="speaker_tab_name" id="image3_name">KIRAN MANRAL</p>
             </div>
          </li>
          <li role="presentation" style="float:none;display:inline-block;">
             <div style="text-align: center;" data-toggle="tab" href="#speaker4" class="tab4">
-               <img class="speakers_tab_img" src="img/Group38a.png" id="image4" onmouseover="hoverimagein4()" onmouseout="hoverimageout4()">
+               <img class="speakers_tab_img" src='{% static "img/Group38a.png" %}' id="image4" onmouseover="hoverimagein4()" onmouseout="hoverimageout4()">
                <p class="speaker_tab_name" id="image4_name">KASHYAP DEORAH</p>
             </div>
          </li>
          <li role="presentation" style="float:none;display:inline-block;">
             <div style="text-align: center;" data-toggle="tab" href="#speaker5" class="tab5">
-               <img class="speakers_tab_img" src="img/Group41a.png" id="image5" onmouseover="hoverimagein5()" onmouseout="hoverimageout5()">
+               <img class="speakers_tab_img" src='{% static "img/Group41a.png" %}' id="image5" onmouseover="hoverimagein5()" onmouseout="hoverimageout5()">
                <p class="speaker_tab_name" id="image5_name">ANSHU MOR</p>
             </div>
          </li>
          <li role="presentation" class="active" style="float:none;display:inline-block;">
             <div style="text-align: center;" data-toggle="tab" href="#speaker6" class="tab6">
-               <img class="speakers_tab_img" src="img/Group1.png" id="image6" onmouseover="hoverimagein6()" onmouseout="hoverimageout6()">
+               <img class="speakers_tab_img" src='{% static "img/Group1.png" %}' id="image6" onmouseover="hoverimagein6()" onmouseout="hoverimageout6()">
                <p class="speaker_tab_name" id="image6_name">VITHIKA YADAV</p>
             </div>
          </li>
          <li role="presentation" style="float:none;display:inline-block;">
             <div style="text-align: center;" data-toggle="tab" href="#speaker7" class="tab7">
-               <img class="speakers_tab_img" src="img/Group35a.png" id="image7" onmouseover="hoverimagein7()" onmouseout="hoverimageout7()">
+               <img class="speakers_tab_img" src='{% static "img/Group35a.png" %}' id="image7" onmouseover="hoverimagein7()" onmouseout="hoverimageout7()">
                <p class="speaker_tab_name" id="image7_name">NIRALI KARTIK</p>
             </div>
          </li>
@@ -108,7 +108,7 @@
       <div class="tab-content">
          <div id="speaker1" class="tab-pane fade in active">
             <div class="row" style="margin-top: 50px">
-               <div class="col-xs-4"><img src="img/Group44a.png" class="speaker_image"></div>
+               <div class="col-xs-4"><img src='{% static "img/Group44a.png" %}' class="speaker_image"></div>
                <div class="col-xs-8">
                   <div class="row">
                      <div class="col-xs-10 speaker_NAME">
@@ -125,7 +125,7 @@
          </div>
          <div id="speaker2" class="tab-pane fade in">
             <div class="row" style="margin-top: 50px">
-               <div class="col-xs-4"><img src="img/Group32a.png" class="speaker_image"></div>
+               <div class="col-xs-4"><img src='{% static "img/Group32a.png" %}' class="speaker_image"></div>
                <div class="col-xs-8">
                   <div class="row">
                      <div class="col-xs-10 speaker_NAME">
@@ -142,7 +142,7 @@
          </div>
          <div id="speaker3" class="tab-pane fade in">
             <div class="row" style="margin-top: 50px">
-               <div class="col-xs-4"><img src="img/Group37a.png" class="speaker_image"></div>
+               <div class="col-xs-4"><img src='{% static "img/Group37a.png" %}' class="speaker_image"></div>
                <div class="col-xs-8">
                   <div class="row">
                      <div class="col-xs-10 speaker_NAME">
@@ -159,7 +159,7 @@
          </div>
          <div id="speaker4" class="tab-pane fade in">
             <div class="row" style="margin-top: 50px">
-               <div class="col-xs-4"><img src="img/Group38a.png" class="speaker_image"></div>
+               <div class="col-xs-4"><img src='{% static "img/Group38a.png" %}' class="speaker_image"></div>
                <div class="col-xs-8">
                   <div class="row">
                      <div class="col-xs-10 speaker_NAME">
@@ -176,7 +176,7 @@
          </div>
          <div id="speaker5" class="tab-pane fade in">
             <div class="row" style="margin-top: 50px">
-               <div class="col-xs-4"><img src="img/Group41a.png" class="speaker_image"></div>
+               <div class="col-xs-4"><img src='{% static "img/Group41a.png" %}' class="speaker_image"></div>
                <div class="col-xs-8">
                   <div class="row">
                      <div class="col-xs-10 speaker_NAME">
@@ -193,7 +193,7 @@
          </div>
          <div id="speaker6" class="tab-pane fade in">
             <div class="row" style="margin-top: 50px">
-               <div class="col-xs-4"><img src="img/Group1.png" class="speaker_image"></div>
+               <div class="col-xs-4"><img src='{% static "img/Group1.png" %}' class="speaker_image"></div>
                <div class="col-xs-8">
                   <div class="row">
                      <div class="col-xs-10 speaker_NAME">
@@ -210,7 +210,7 @@
          </div>
          <div id="speaker7" class="tab-pane fade in">
             <div class="row" style="margin-top: 50px">
-               <div class="col-xs-4"><img src="img/Group35a.png" class="speaker_image"></div>
+               <div class="col-xs-4"><img src='{% static "img/Group35a.png" %}' class="speaker_image"></div>
                <div class="col-xs-8">
                   <div class="row">
                      <div class="col-xs-10 speaker_NAME">

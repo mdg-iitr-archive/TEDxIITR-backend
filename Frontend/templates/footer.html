@@ -1,3 +1,4 @@
+{% load static %}
 <footer>
    <script>(function(d, s, id){var js, fjs=d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js=d.createElement(s); js.id=id; js.src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk')); </script> <script>window.twttr=(function(d, s, id){var js, fjs=d.getElementsByTagName(s)[0], t=window.twttr ||{}; if (d.getElementById(id)) return t; js=d.createElement(s); js.id=id; js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); t._e=[]; t.ready=function(f){t._e.push(f);}; return t;}(document, "script", "twitter-wjs")); </script> </script>
    <style>.twitter-share-button{opacity: 0 !important;}</style>
@@ -52,7 +53,7 @@
          <div class="col-sm-2 col-xs-2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfqALs-nYWQ8nhDI6kYFw3KoqTsWJ0MDesUdQsXYy3mHQoMXQ/viewform?c=0&w=1" target="_blank"><i class="fa fa-envelope"></i></a></div>
          <div class="col-sm-2 col-xs-2"><a href="https://twitter.com/TEDxIITRoorkee" target="_blank"><i class="fa fa-twitter"></i></a></div>
          <div class="col-sm-2 col-xs-2"><a href="https://www.linkedin.com/company/13283944/" target="_blank"><i class="fa fa-linkedin"></i></a></div>
-         <div class="col-sm-2 col-xs-2"> <a href="https://www.youtube.com/results?search_query=tedx+iit+roorkee" target="_blank"><img src=img/tedxyoutube.svg style="height: 25px; width: 40px"></div>
+         <div class="col-sm-2 col-xs-2"> <a href="https://www.youtube.com/results?search_query=tedx+iit+roorkee" target="_blank"><img src='{% static "img/tedxyoutube.svg" %}' style="height: 25px; width: 40px"></div>
       </div>
    </div>
 </footer>

@@ -1,3 +1,4 @@
+{% load static %}
 {% include "mainframe.html" %}
 {% include "header.html" %}
 
@@ -8,9 +9,9 @@
       <div class="col-xs-5 spons_tag" style="margin-left: 11vw"> SPONSORS <img class="red_circle2"> </div>
       <div class="col-xs-6"> </div>
    </div>
-   <div class="row"> <img src="img/spon1.png" class="spon_image" style="margin-left: 12.15vw" > <img src="img/spon2.png" class="spon_image" style="margin-left: 6.59vw"> <img src="img/spon3.png" class="spon_image" style="margin-left: 6.59vw "> </div>
-   <div class="row"> <img src="img/spon4.png" class="spon_image" style="margin-left: 12.15vw" > <img src="img/spon5.png" class="spon_image" style="margin-left: 6.59vw"> <img src="img/spon11.png" class="spon_image" style="margin-left: 6.59vw "> </div>
-   <div class="row"> <img src="img/spon12.png" class="spon_image" style="margin-left: 12.15vw" > </div>
+   <div class="row"> <img src='{% static "img/spon1.png" %}' class="spon_image" style="margin-left: 12.15vw" > <img src='{% static "img/spon2.png" %}' class="spon_image" style="margin-left: 6.59vw"> <img src='{% static "img/spon3.png" %}' class="spon_image" style="margin-left: 6.59vw "> </div>
+   <div class="row"> <img src='{% static "img/spon4.png" %}' class="spon_image" style="margin-left: 12.15vw" > <img src='{% static "img/spon5.png" %}' class="spon_image" style="margin-left: 6.59vw"> <img src='{% static "img/spon11.png" %}' class="spon_image" style="margin-left: 6.59vw "> </div>
+   <div class="row"> <img src='{% static "img/spon12.png" %}' class="spon_image" style="margin-left: 12.15vw" > </div>
 </div>
 {% include "footer.html" %}
  </body> </html>

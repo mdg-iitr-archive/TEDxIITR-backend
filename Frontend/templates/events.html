@@ -1,3 +1,4 @@
+{% load static %}
 {% include "mainframe.html" %}
 {% include "header.html" %}
 
@@ -22,50 +23,50 @@
          <div class="row" style="margin-top: 5vw">
             <div class="col-xs-6 col-sm-3">
                <div class="image_hover" data-toggle="modal" data-target="#img1">
-                  <img class="events_video" src="img/event1.jpg">
-                  <div class="middle"> <img src="img/zin.png" class="zout-icon"> </div>
+                  <img class="events_video" src='{% static "img/event1.jpg" %}'>
+                  <div class="middle"> <img src='{% static "img/zin.png" %}' class="zout-icon"> </div>
                </div>
             </div>
             <div class="col-xs-6 col-sm-3">
                <div class="image_hover" data-toggle="modal" data-target="#img2">
-                  <img class="events_video" src="img/event2.jpg">
-                  <div class="middle"> <img src="img/zin.png" class="zout-icon"> </div>
+                  <img class="events_video" src='{% static "img/event2.jpg" %}'>
+                  <div class="middle"> <img src='{% static "img/zin.png" %}' class="zout-icon"> </div>
                </div>
             </div>
             <div class="col-xs-6 col-sm-3">
                <div class="image_hover" data-toggle="modal" data-target="#img3">
-                  <img class="events_video" src="img/event3.jpg">
-                  <div class="middle"> <img src="img/zin.png" class="zout-icon"> </div>
+                  <img class="events_video" src='{% static "img/event3.jpg" %}'>
+                  <div class="middle"> <img src='{% static "img/zin.png" %}' class="zout-icon"> </div>
                </div>
             </div>
             <div class="col-xs-6 col-sm-3">
                <div class="image_hover" data-toggle="modal" data-target="#img4">
-                  <img class="events_video" src="img/event4.jpg">
-                  <div class="middle"> <img src="img/zin.png" class="zout-icon"> </div>
+                  <img class="events_video" src='{% static "img/event4.jpg" %}'>
+                  <div class="middle"> <img src='{% static "img/zin.png" %}' class="zout-icon"> </div>
                </div>
             </div>
             <div class="col-xs-6 col-sm-3">
                <div class="image_hover" data-toggle="modal" data-target="#img5">
-                  <img class="events_video" src="img/event5.jpg">
-                  <div class="middle"> <img src="img/zin.png" class="zout-icon"> </div>
+                  <img class="events_video" src='{% static "img/event5.jpg" %}'>
+                  <div class="middle"> <img src='{% static "img/zin.png" %}' class="zout-icon"> </div>
                </div>
             </div>
             <div class="col-xs-6 col-sm-3">
                <div class="image_hover" data-toggle="modal" data-target="#img6">
-                  <img class="events_video" src="img/event6.jpg">
-                  <div class="middle"> <img src="img/zin.png" class="zout-icon"> </div>
+                  <img class="events_video" src='{% static "img/event6.jpg" %}'>
+                  <div class="middle"> <img src='{% static "img/zin.png" %}' class="zout-icon"> </div>
                </div>
             </div>
             <div class="col-xs-6 col-sm-3">
                <div class="image_hover" data-toggle="modal" data-target="#img7">
-                  <img class="events_video" src="img/event7.jpg">
-                  <div class="middle"> <img src="img/zin.png" class="zout-icon"> </div>
+                  <img class="events_video" src='{% static "img/event7.jpg" %}'>
+                  <div class="middle"> <img src='{% static "img/zin.png" %}' class="zout-icon"> </div>
                </div>
             </div>
             <div class="col-xs-6 col-sm-3">
                <div class="image_hover" data-toggle="modal" data-target="#img8">
-                  <img class="events_video" src="img/event8.jpg">
-                  <div class="middle"> <img src="img/zin.png" class="zout-icon"> </div>
+                  <img class="events_video" src='{% static "img/event8.jpg" %}'>
+                  <div class="middle"> <img src='{% static "img/zin.png" %}' class="zout-icon"> </div>
                </div>
             </div>
          </div>
@@ -75,56 +76,56 @@
 <div class="modal fade" id="img1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog event_img_modal" role="document" >
       <div class="modal-content event_img_modal">
-         <div class="modal-body"> <img src="img/event1.jpg" class="events_video_modal"> </div>
+         <div class="modal-body"> <img src='{% static "img/event1.jpg" %}' class="events_video_modal"> </div>
       </div>
    </div>
 </div>
 <div class="modal fade" id="img2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog event_img_modal" role="document">
       <div class="modal-contentevent_img_modal">
-         <div class="modal-body"> <img src="img/event2.jpg" class="events_video_modal"> </div>
+         <div class="modal-body"> <img src='{% static "img/event2.jpg" %}' class="events_video_modal"> </div>
       </div>
    </div>
 </div>
 <div class="modal fade" id="img3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog event_img_modal" role="document">
       <div class="modal-contentevent_img_modal">
-         <div class="modal-body"> <img src="img/event3.jpg" class="events_video_modal"> </div>
+         <div class="modal-body"> <img src='{% static "img/event3.jpg" %}' class="events_video_modal"> </div>
       </div>
    </div>
 </div>
 <div class="modal fade" id="img4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog event_img_modal" role="document">
       <div class="modal-contentevent_img_modal">
-         <div class="modal-body"> <img src="img/event4.jpg" class="events_video_modal"> </div>
+         <div class="modal-body"> <img src='{% static "img/event4.jpg" %}' class="events_video_modal"> </div>
       </div>
    </div>
 </div>
 <div class="modal fade" id="img5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog event_img_modal" role="document">
       <div class="modal-contentevent_img_modal">
-         <div class="modal-body"> <img src="img/event5.jpg" class="events_video_modal"> </div>
+         <div class="modal-body"> <img src='{% static "img/event5.jpg" %}' class="events_video_modal"> </div>
       </div>
    </div>
 </div>
 <div class="modal fade" id="img6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog event_img_modal" role="document">
       <div class="modal-contentevent_img_modal">
-         <div class="modal-body"> <img src="img/event6.jpg" class="events_video_modal"> </div>
+         <div class="modal-body"> <img src='{% static "img/event6.jpg" %}' class="events_video_modal"> </div>
       </div>
    </div>
 </div>
 <div class="modal fade" id="img7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog event_img_modal" role="document">
       <div class="modal-contentevent_img_modal">
-         <div class="modal-body"> <img src="img/event7.jpg" class="events_video_modal"> </div>
+         <div class="modal-body"> <img src='{% static "img/event7.jpg" %}' class="events_video_modal"> </div>
       </div>
    </div>
 </div>
 <div class="modal fade" id="img8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog event_img_modal" role="document">
       <div class="modal-contentevent_img_modal">
-         <div class="modal-body"> <img src="img/event8.jpg" class="events_video_modal"> </div>
+         <div class="modal-body"> <img src='{% static "img/event8.jpg" %}' class="events_video_modal"> </div>
       </div>
    </div>
 </div>{% include "footer.html" %}
