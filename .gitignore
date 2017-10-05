@@ -1,5 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
 .env
-/tedxiitr/__pycache__
-/talks/__pycache__
+*.pycache
 .idea
+uploads/
