@@ -3,3 +3,6 @@
 /tedxiitr/__pycache__
 /talks/__pycache__
 .idea
+talks/migrations/__pycache__
+Frontend/__pycache__
+Frontend/migrations/__pycache__

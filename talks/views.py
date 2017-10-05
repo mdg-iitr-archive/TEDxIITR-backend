@@ -62,3 +62,13 @@ class SponsorsEventView(generics.ListAPIView):
 
     def get_queryset(self):
         return Speaker.objects.filter(event__id=self.kwargs['event'])
+
+
+class ScheduleView(generics.ListAPIView):
+    """
+        returns the list of sponsors event-wise
+    """
+    serializer_class = ScheduleSerializer
+
+    def get_queryset(self):
+        return Speaker.objects.all()

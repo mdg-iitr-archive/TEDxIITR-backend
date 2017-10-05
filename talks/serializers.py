@@ -25,3 +25,9 @@ class SponsorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Sponsor
         fields = ('name', 'link', 'image')
+
+
+class ScheduleSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Schedule
+        fields = ('speaker', 'start_time', 'title', 'description', 'end_time', 'type')

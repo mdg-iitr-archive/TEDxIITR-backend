@@ -11,4 +11,5 @@ urlpatterns = [
     url('^organizers/$', views.OrganizerView.as_view(), name='organizers'),
     url('^sponsors/$', views.SponsorView.as_view(), name='sponsors'),
     url('^sponsors/event/(?P<event>[0-9]+)/$', views.SponsorsEventView.as_view(), name='sponsors-event'),
+    url('^schedule/$', views.ScheduleView.as_view(), name='schedule'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

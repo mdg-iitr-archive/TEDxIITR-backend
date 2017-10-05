@@ -19,7 +19,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY='eq(th$czw_5jlcd=b4o!shp7vf)pmo^wnvm(u5w+z2zg8232g3'
+SECRET_KEY = 'eq(th$czw_5jlcd=b4o!shp7vf)pmo^wnvm(u5w+z2zg8232g3'
 # SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -87,10 +87,12 @@ WSGI_APPLICATION = 'tedxiitr.wsgi.application'
 
 
 import dj_database_url
+
 if 'DATABASE_URL' not in os.environ:
     print("Database url not found")
 
 DATABASES = {'default': dj_database_url.config()}
+
 
 
 # Password validation
@@ -127,7 +129,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
-# STATIC_URL = '/static/'
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')

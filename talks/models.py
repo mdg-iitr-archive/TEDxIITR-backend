@@ -36,3 +36,14 @@ class Sponsor(models.Model):
     link = models.URLField()
     image = models.ImageField(upload_to='sponsors', null=True, blank=True)
     event = models.ForeignKey(Event, related_name='sponsor')
+
+
+class Schedule(models.Model):
+    speaker = models.CharField(max_length=50)
+    start_time = models.DateTimeField()
+    title = models.CharField(max_length=50)
+    description = models.TextField()
+    end_time = models.DateTimeField()
+    type = models.CharField(max_length=50)
+
+
