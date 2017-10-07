@@ -71,4 +71,4 @@ class ScheduleView(generics.ListAPIView):
     serializer_class = ScheduleSerializer
 
     def get_queryset(self):
-        return Speaker.objects.all()
+        return Schedule.objects.all()
