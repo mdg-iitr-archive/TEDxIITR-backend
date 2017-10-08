@@ -66,15 +66,15 @@
                               </div>
                               <div class="col-xs-6 ">
                                  <ul class="list-inline socialLink social_icons social_icons_icons ">
-                                    <li id="fb_speaker1 " class="social_links " ><a href="tedx.htm " > <i class="fa fa-facebook social_icons_links social_links "></i></a></li>
-                                    <li id="linkedin_speaker1 " class="social_links " ><a href="tedx.htm " > <i class="fa fa-linkedin social_icons_links social_links "></i></a></li>
-                                    <li id="twitter_speaker1 " class="social_links " ><a href="tedx.htm " > <i class="fa fa-twitter social_icons_links "></i></a></li>
+                                    <li id="fb_speaker1 " class="social_links " ><a href="{{speaker.facebook}}" > <i class="fa fa-facebook social_icons_links social_links "></i></a></li>
+                                    <li id="linkedin_speaker1 " class="social_links " ><a href="{{speaker.linkedin}}" > <i class="fa fa-linkedin social_icons_links social_links "></i></a></li>
+                                    <li id="twitter_speaker1 " class="social_links " ><a href="{{speaker.twitter}}" > <i class="fa fa-twitter social_icons_links "></i></a></li>
                                  </ul>
                               </div>
                            </div>
                            <div class="col-xs-10 speakerContent " >{{speaker.about}}</div>
                         </div>
-                        <div class="col-xs-3 "><img src='{% static "img/Group32a.png "%}'  class="speakerImg2 " id="sushuImage " ></div>
+                        <div class="col-xs-3 "><img src='{{speaker.profile_pic.url}}'  class="speakerImg2 " id="sushuImage " ></div>
                      </div>
                   </div>
                </div>

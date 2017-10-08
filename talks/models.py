@@ -8,7 +8,7 @@ class Event(models.Model):
     description = models.CharField(max_length=500)
     timestamp = models.DateField()
     image = models.ImageField(upload_to='events', blank=True, null=True)
-
+    venue = models.CharField(max_length=200)
 
 class Speaker(models.Model):
     name = models.CharField(max_length=50)
