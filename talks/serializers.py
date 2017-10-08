@@ -6,13 +6,14 @@ from talks.models import *
 class EventSerializer(serializers.ModelSerializer):
     class Meta:
         model = Event
-        fields = ('id', 'theme', 'description', 'timestamp', 'image')
+        fields = ('id', 'index', 'theme', 'description', 'timestamp', 'image', 'venue')
 
 
 class SpeakerSerializer(serializers.ModelSerializer):
+    event_index = serializers.IntegerField(source='event.index')
     class Meta:
         model = Speaker
-        fields = ('name', 'designation', 'date', 'about', 'facebook', 'linkedin', 'twitter', 'profile_pic')
+        fields = ('name', 'designation', 'date', 'about', 'facebook', 'linkedin', 'twitter', 'profile_pic', 'event_index')
 
 
 class OrganizerSerializer(serializers.ModelSerializer):

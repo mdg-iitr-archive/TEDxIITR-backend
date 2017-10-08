@@ -12,7 +12,7 @@ def extract_date(entity):
     return entity.date
 
 def index(request):
-  speakers = Speaker.objects.all()
+  speakers = Speaker.objects.filter(event__index=0)
   context = {
     'speakers' : speakers
   }

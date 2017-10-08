@@ -9,6 +9,10 @@ class Event(models.Model):
     timestamp = models.DateField()
     image = models.ImageField(upload_to='events', blank=True, null=True)
     venue = models.CharField(max_length=200)
+    index = models.IntegerField(default=0)
+
+    def __str__(self):
+        return self.theme
 
 class Speaker(models.Model):
     name = models.CharField(max_length=50)
@@ -21,6 +25,8 @@ class Speaker(models.Model):
     profile_pic = models.ImageField(upload_to='speakers', null=True, blank=True)
     event = models.ForeignKey(Event, related_name='speaker')
 
+    def __str__(self):
+        return self.name
 
 class Organizer(models.Model):
     name = models.CharField(max_length=50)
@@ -30,9 +36,15 @@ class Organizer(models.Model):
     twitter = models.URLField(null=True)
     profile_pic = models.ImageField(upload_to='speakers')
 
+    def __str__(self):
+        return self.name
+
 
 class Sponsor(models.Model):
     name = models.CharField(max_length=50)
     link = models.URLField()
     image = models.ImageField(upload_to='sponsors', null=True, blank=True)
     event = models.ForeignKey(Event, related_name='sponsor')
+
+    def __str__(self):
+        return self.name
