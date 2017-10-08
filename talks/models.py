@@ -54,7 +54,7 @@ class Sponsor(models.Model):
 
 class Schedule(models.Model):
     title = models.CharField(max_length=100)
-    description = models.CharField(max_length=500)
+    description = models.TextField()
     start_time = models.DateTimeField()
     duration = models.IntegerField(default=30)
     SCHEDULE_TYPES = (

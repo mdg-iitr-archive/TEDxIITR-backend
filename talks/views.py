@@ -20,10 +20,10 @@ class SpeakerView(generics.ListAPIView):
 
 class ScheduleView(generics.ListAPIView):
     """
-            Returns the list of all the speakers
+            Returns the list of all the schedules
         """
     serializer_class = ScheduleSerializer
-    queryset = Speaker.objects.all()
+    queryset = Schedule.objects.all()
 
 
 class SpeakerYearView(generics.ListAPIView):
