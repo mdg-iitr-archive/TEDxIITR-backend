@@ -23,3 +23,4 @@ whitenoise==3.3.1
 python-env==1.0.0
 boto==2.48.0
 django-storages==1.6.5
+collectfast==0.5.2
