@@ -1,0 +1,926 @@
+[
+  {
+    "model": "sessions.session",
+    "pk": "ame62kqc64daa990l0cejz5nvzzn67l1",
+    "fields": {
+      "session_data": "OTM5YjE3NmFjZDBjY2Q2NDEwODMxZTg1NjRiZTI4YTY5YjIzOGQ0Mzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9oYXNoIjoiMmQwMTY5MTQyZDUzNDg1NzI0OTdhNWU2MGU1NzFmZTY3YmIwYTZjYSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
+      "expire_date": "2017-10-22T14:47:55.457Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "b20mjaxfwjkstbvbp8qeqn4teau4nmhd",
+    "fields": {
+      "session_data": "NWQ1NWMzYzU3MDFlMDFlNDY0ZjdlZmRlNDc3NzQ2ZDU4NGY3ZGYyOTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2hhc2giOiIyZDAxNjkxNDJkNTM0ODU3MjQ5N2E1ZTYwZTU3MWZlNjdiYjBhNmNhIn0=",
+      "expire_date": "2017-10-22T12:34:23.149Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "bbyf2u4suquawd0swwg82wg564dj8wqz",
+    "fields": {
+      "session_data": "MWNmMWE1YmFkMThiMDBkYmE3ZGNmOWFiNGNhNWJkYzlkY2I4ZjEzNTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyZDAxNjkxNDJkNTM0ODU3MjQ5N2E1ZTYwZTU3MWZlNjdiYjBhNmNhIn0=",
+      "expire_date": "2017-10-22T13:21:55.115Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "edww3nxcnyszq6bq4c341x30bxtih0a5",
+    "fields": {
+      "session_data": "YzVlMGQ3YmE0YTEyNDFlM2ZlM2ZhMWQ2MGJjOTNjNmQ1Y2I3ZDMyMTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMmQwMTY5MTQyZDUzNDg1NzI0OTdhNWU2MGU1NzFmZTY3YmIwYTZjYSIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+      "expire_date": "2017-10-22T17:59:52.976Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "x2hoyakn78vm7xjignejjoc0rhc2trs6",
+    "fields": {
+      "session_data": "NWQ1NWMzYzU3MDFlMDFlNDY0ZjdlZmRlNDc3NzQ2ZDU4NGY3ZGYyOTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2hhc2giOiIyZDAxNjkxNDJkNTM0ODU3MjQ5N2E1ZTYwZTU3MWZlNjdiYjBhNmNhIn0=",
+      "expire_date": "2017-10-22T17:39:55.037Z"
+    }
+  },
+  {
+    "model": "talks.event",
+    "pk": 1,
+    "fields": {
+      "theme": "MUSTERING MUSES",
+      "description": "TEDxIITRoorkee \u201817 was held on 5th March in MAC Auditorium. The theme of the event was \u2018Mustering Muses\u2019. The Muses were invoked by artists to serve as sources of inspiration for their work. Indeed, inspiration is what fuels our actions and provides a sense of purpose. TED as a society believes passionately in the power of an individual and his ideas to change the world. This event aimed to unleash our untapped potential and to summon the very source of inspiration from within each of us. The TE",
+      "timestamp": "2017-01-14",
+      "image": "",
+      "venue": "MAC AUDITORIUM",
+      "index": 1
+    }
+  },
+  {
+    "model": "talks.event",
+    "pk": 2,
+    "fields": {
+      "theme": "Symphonic Chaos",
+      "description": "The theme for TEDxIITRoorkee 2017 is Symphonic Chaos. The theme underlines the beauty of spontaneity, the 'chaos' and how an unorderly universe is the reason for our very existence. The fundamentalism of the idea of chaos is the real beauty itself, thus giving birth to the notion of 'perfectly imperfect' life. In our real world, it is because of this unpredictability that opportunities arise, through which success is achieved.",
+      "timestamp": "2017-10-14",
+      "image": "",
+      "venue": "MAC AUDITORIUM",
+      "index": 0
+    }
+  },
+  {
+    "model": "talks.event",
+    "pk": 3,
+    "fields": {
+      "theme": "Ideasthesia",
+      "description": "TEDxIITRoorkee 2016",
+      "timestamp": "2016-11-14",
+      "image": "",
+      "venue": "MAC AUDITORIUM",
+      "index": 2
+    }
+  },
+  {
+    "model": "talks.speaker",
+    "pk": 1,
+    "fields": {
+      "name": "VIVEK AGNIHOTRI",
+      "designation": "Movie Director",
+      "date": "2017-02-14",
+      "about": "Vivek Agnihotri is an Avant-Garde Indian film producer, director, music producer and screenwriter. With a portfolio spawning a plethora of conventional and experimental genres, Agnihotri is touted as one of the bests in Indian Cinema. He is known for his unconventional techniques of filmmaking, which makes his creations stand out in the crowd of populist Bollywood movies. Vivek is credited to direct India's first mainstream football film (Dhana Dhan Goal) at a time when not many producers were investing in sports films in Bollywood. One of his most ambitious projects, \u201cBuddha in a Traffic Jam\u201d garnered universal acclaim from critics and viewers alike. The movie was an official entry in various international film festivals and grabbed Agnihotri a lifetime achievement for excellence in cinema.",
+      "facebook": "https://www.facebook.com/tedxiitr/",
+      "linkedin": "https://www.facebook.com/tedxiitr/",
+      "twitter": "https://www.facebook.com/tedxiitr/",
+      "profile_pic": "speakers/Group44b.png",
+      "event": 1
+    }
+  },
+  {
+    "model": "talks.speaker",
+    "pk": 2,
+    "fields": {
+      "name": "SUSHRUTI KRISHNA",
+      "designation": "Model and Architect",
+      "date": "2017-02-14",
+      "about": "Model, Architect, Classical Dancer and Social worker, Sushruthi Krishna is really the woman extraordinaire. She was crowned the 1st runner up of FBB Femina Miss India 2016 contest. Though an architect by heart, Sushruthi has created something evocative out of beauty pageants. Her dream project Anatta, aptly titled Beauty titled Beauty with a purpose, an endeavor to empower girl child by creating healthy education environment has garnered universal acclaim. Sushruthi\u2019s contagious enthusiasm, unique perspective and unrelenting pursuit for universal girl child education just go on to show her multifaceted genius.",
+      "facebook": "https://www.facebook.com/tedxiitr/",
+      "linkedin": "https://www.facebook.com/tedxiitr/",
+      "twitter": "https://www.facebook.com/tedxiitr/",
+      "profile_pic": "speakers/Group32b.png",
+      "event": 1
+    }
+  },
+  {
+    "model": "talks.speaker",
+    "pk": 3,
+    "fields": {
+      "name": "ASHWIKA KAPUR",
+      "designation": "Wildlife Film Maker",
+      "date": "2017-10-14",
+      "about": "She is an Indian filmmaker. She began her journey as a wildlife camera girl at the age of 22. In 2014, she graduated in Science and Natural History Filmmaking from University of Otago. Her camera skills combined with her knack for storytelling has quickly made her successful. Her University project 'Sirocco - How a dud became a stud', which she completed on a shoestring budget of mere Rs.50000 won the 'Green Oscar' in 2014. She is currently working on two film projects with Animal Planet.",
+      "facebook": "https://www.facebook.com/ashwika",
+      "linkedin": "https://www.facebook.com/ashwika",
+      "twitter": "https://www.facebook.com/tedxiitr/",
+      "profile_pic": "speakers/ashwika.png",
+      "event": 2
+    }
+  },
+  {
+    "model": "talks.speaker",
+    "pk": 4,
+    "fields": {
+      "name": "VITHIKA YADAV",
+      "designation": "Human Rights Activist",
+      "date": "2017-10-14",
+      "about": "Vithika Yadav is the Head of Indian Operations for Love Matters, a web platform that challenges the idea that sex cannot be discussed in public. Created by Radio Netherlands Worldwide in 2011, the Love Matters web and mobile sites provide easy-to-access information and news on sexuality and sexual health and sex education for teenagers and young adults. In her view, sex education is not a privilege reserved for certain countries, cultures or communities, but an inherent human right. Today, Yadav openly calls for better sex education for India's youth. After more than nine years of tireless campaigning, she perceives a change in urban India\u2019s sexual landscape. More and more, the need for sex education is being publicly discussed.",
+      "facebook": "https://www.facebook.com/tedxiitr/",
+      "linkedin": "https://www.facebook.com/tedxiitr/",
+      "twitter": "https://www.facebook.com/tedxiitr/",
+      "profile_pic": "speakers/Group2.png",
+      "event": 3
+    }
+  },
+  {
+    "model": "talks.speaker",
+    "pk": 5,
+    "fields": {
+      "name": "ANKUR WARIKOO",
+      "designation": "Enterpreneur & Investor",
+      "date": "2017-10-14",
+      "about": "He is an Entrepreneur and an Investor. He is the founder and CEO at Nearbuy (previously Groupon). He did his MBA from Indian School of Business, and an MS from Michigan State University. He was included in the Fortune 40 under 40 India list in 2013 and 2014. He is one of the most prominent names in the Indian startup scene.",
+      "facebook": "https://www.facebook.com/bistriti.poddar.7",
+      "linkedin": "https://www.linkedin.com/in/warikoo",
+      "twitter": "https://twitter.com/warikoo?lang=en",
+      "profile_pic": "speakers/ankur.png",
+      "event": 2
+    }
+  },
+  {
+    "model": "talks.speaker",
+    "pk": 6,
+    "fields": {
+      "name": "SHARON PRABHAKAR",
+      "designation": "Theatre Actress, Pop Singer & Public Speaker",
+      "date": "2017-10-14",
+      "about": "Sharon is a celebrated diva, theatre actress, pop-singer and public speaker. She found her passion in singing and riveted the audience with her mesmerising performance in the musical 'Evita' and since then continues to perform all over the world. Having numerous pop albums to her credit, she has also represented India at pop festivals in Japan, China, Mauritius, Russia, Hong Kong and Singapore. She has had lead roles in various theatres and has performed in the Opening Act for Michael Jackson when he performed in Mumbai. She has also bagged the Newcomer of the year award for her song in the film, \u2018Armaan\u2019. Not only this, Sharon is also one of India\u2019s most respected and in-demand Corporate Trainers.",
+      "facebook": "https://www.facebook.com/SPIPSGlobalSolutions/",
+      "linkedin": "https://www.linkedin.com/in/sharon-prabhakar-padamsee-77627388",
+      "twitter": "https://mobile.twitter.com/sharonsp24",
+      "profile_pic": "speakers/sharon.png",
+      "event": 2
+    }
+  },
+  {
+    "model": "talks.speaker",
+    "pk": 7,
+    "fields": {
+      "name": "SOUMITRA BHAT",
+      "designation": "User Interaction & Human Interaction Design Expert",
+      "date": "2017-10-14",
+      "about": "He is a User Interface and Human Interaction Design Expert. He did his Bachelor's in design from IIT Guwahati, followed by a Masters from TU Delft specializing in Design for Interaction. He founded UserINNOV in 2010. Since June of this year, he has been working as a director of the design-led customer innovation program, Ignite by Salesforce. He believes in more and more user-centric design and has worked extensively towards it. He has written multiple articles on the importance of design innovation.",
+      "facebook": "https://www.facebook.com/soumitra.bhat",
+      "linkedin": "https://www.linkedin.com/in/soumitrabhat",
+      "twitter": "https://mobile.twitter.com/performingflea",
+      "profile_pic": "speakers/Soumitra.png",
+      "event": 2
+    }
+  },
+  {
+    "model": "talks.speaker",
+    "pk": 8,
+    "fields": {
+      "name": "BIJESH AMIN",
+      "designation": "Co-founder, Indus Valley Partners(IVP)",
+      "date": "2017-10-14",
+      "about": "Frequently sought out for his opinions and insights relating to the Entrepreneurial & Business World by leading industry publications and the financial media today, Bijesh Amin, the Co-founder of Indus Valley Partners (IVP) is responsible for IVP\u2019s on and offline media presence. IVP is a technology consulting firm based in New York, focused on the capital markets domain. Following initial success in the investment banking and management consulting industries, Bijesh embarked on a more entrepreneurial venture co-founding IVP with Gurvinder Singh in 2000. Bijesh had previously worked with Oliver Wyman and JP Morgan in senior strategic consulting roles. Bijesh holds a BSc (Hons) in Business Administration from the University of Bath, a Diploma in International Finance and Management from \u00c9cole des Hautes \u00c9tudes Commerciales, Lille and he also graduated from the 'Building New Ventures Program' at Harvard Business School.",
+      "facebook": "https://www.ivp.in/leadership/",
+      "linkedin": "https://www.ivp.in/leadership/",
+      "twitter": "https://www.ivp.in/leadership/",
+      "profile_pic": "speakers/Brijesh.png",
+      "event": 2
+    }
+  },
+  {
+    "model": "talks.speaker",
+    "pk": 9,
+    "fields": {
+      "name": "BISTRITI PODDAR",
+      "designation": "Co-founder, Paperless Postcards",
+      "date": "2017-10-14",
+      "about": "\u201cThe real empowerment of any woman is having unshakable self-belief\u201d. Such words make up the persona of Bistriti Poddar. Driven by the ideology of \u201cpositive disruption\u201d, she\u2019s a hobbyist turned professional content writer, manager & editor with over 7 years of experience. Co - founder of Paperless Postcards, Bistriti draws her inspiration from \u201clife\u201d. When not on her typewriter or planning new strategies for her content projects, she would indulge in motivating youngsters or would be engulfed into movies,Bengali being her favourite.\r\n\u201cVehemence\u201d , the gist behind her writings -\r\n\u201cIt wasn't meant to be this way...\r\nIn majestic dark lanes...today...\r\nI helplessly stray\u2026\u201d",
+      "facebook": "https://www.facebook.com/bistriti.poddar.7",
+      "linkedin": "https://www.linkedin.com/in/bistriti-poddar-4a712470",
+      "twitter": "https://www.facebook.com/bistriti.poddar.7",
+      "profile_pic": "speakers/bistrti.png",
+      "event": 2
+    }
+  },
+  {
+    "model": "talks.organizer",
+    "pk": 1,
+    "fields": {
+      "name": "Siddhant Bhardwaj",
+      "designation": "Curator",
+      "facebook": "https://www.facebook.com/n/?ASfunmaniac",
+      "linkedin": "https://www.linkedin.com/in/siddhant-bhardwaj/",
+      "twitter": "https://www.facebook.com/n/?ASfunmaniac",
+      "profile_pic": "speakers/team8.png"
+    }
+  },
+  {
+    "model": "talks.organizer",
+    "pk": 2,
+    "fields": {
+      "name": "Sanjil Jain",
+      "designation": "Co-Curator",
+      "facebook": "https://www.facebook.com/insanejil",
+      "linkedin": "https://www.facebook.com/insanejil",
+      "twitter": "https://www.facebook.com/insanejil",
+      "profile_pic": "speakers/team7.png"
+    }
+  },
+  {
+    "model": "talks.sponsor",
+    "pk": 1,
+    "fields": {
+      "name": "TITLE SPONSER",
+      "link": "http://www.simplifyanalytics.in/",
+      "image": "sponsors/spon32.png",
+      "event": 2
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 3,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 3,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 3,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 4,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 4,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 4,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can add sponsor",
+      "content_type": 7,
+      "codename": "add_sponsor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can change sponsor",
+      "content_type": 7,
+      "codename": "change_sponsor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can delete sponsor",
+      "content_type": 7,
+      "codename": "delete_sponsor"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can add speaker",
+      "content_type": 8,
+      "codename": "add_speaker"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can change speaker",
+      "content_type": 8,
+      "codename": "change_speaker"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can delete speaker",
+      "content_type": 8,
+      "codename": "delete_speaker"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add organizer",
+      "content_type": 9,
+      "codename": "add_organizer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change organizer",
+      "content_type": 9,
+      "codename": "change_organizer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete organizer",
+      "content_type": 9,
+      "codename": "delete_organizer"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can add event",
+      "content_type": 10,
+      "codename": "add_event"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can change event",
+      "content_type": 10,
+      "codename": "change_event"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can delete event",
+      "content_type": 10,
+      "codename": "delete_event"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can add schedule",
+      "content_type": 11,
+      "codename": "add_schedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can change schedule",
+      "content_type": 11,
+      "codename": "change_schedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can delete schedule",
+      "content_type": 11,
+      "codename": "delete_schedule"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$36000$gNwb6QQ2651I$6m1EFrQ9LSxAo69Zwt2VcDLHfkfNf5ml/2/Fn7NDwr4=",
+      "last_login": "2017-10-08T17:59:52.970Z",
+      "is_superuser": true,
+      "username": "tedx",
+      "first_name": "",
+      "last_name": "",
+      "email": "tedxiitr@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2017-10-08T12:33:57.676Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2017-10-08T12:39:49.302Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Event object",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2017-10-08T12:40:10.205Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Speaker object",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2017-10-08T12:41:10.355Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Speaker object",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"profile_pic\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2017-10-08T13:32:37.629Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Speaker object",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2017-10-08T14:05:58.505Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "MUSTERING MUSES",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"index\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2017-10-08T14:06:54.272Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Symphonic Chaos",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2017-10-08T14:10:45.740Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "MUSTERING MUSES",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"timestamp\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2017-10-08T14:11:19.386Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Speaker object",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2017-10-08T14:14:23.677Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "ASHWIKA KAPUR",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"event\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2017-10-08T14:25:11.547Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Organizer object",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2017-10-08T14:26:58.985Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Organizer object",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2017-10-08T14:33:22.029Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "TEDxIITRoorkee 2016",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2017-10-08T14:34:53.182Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "VITHIKA YADAV",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2017-10-08T14:51:26.473Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Ideasthesia",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"theme\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2017-10-08T14:51:41.083Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Ideasthesia",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"index\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2017-10-08T14:53:50.557Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Sanjil Jain",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2017-10-08T17:12:59.848Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Symphonic Chaos",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2017-10-08T17:17:40.692Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "Break",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2017-10-08T17:17:48.384Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Ideasthesia",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2017-10-08T17:17:58.023Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Symphonic Chaos",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2017-10-08T17:24:02.272Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "Talk by ASHWIKA KAPUR",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2017-10-08T17:55:02.411Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "TITLE SPONSER",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2017-10-08T18:15:47.869Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "ASHWIKA KAPUR",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"facebook\", \"linkedin\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2017-10-08T18:23:37.371Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "ANKUR WARIKOO",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2017-10-08T18:24:16.339Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "SHARON PRABHAKAR",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2017-10-08T18:25:35.287Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "SOUMITRA BHAT",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2017-10-08T18:26:05.026Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "BIJESH AMIN",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2017-10-08T18:26:50.798Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "BISTRITI PODDAR",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  }
+]

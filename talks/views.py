@@ -10,6 +10,16 @@ class EventView(generics.ListAPIView):
     queryset = Event.objects.all()
 
 
+class EventIndexView(generics.ListAPIView):
+     """
+        Returns the list of all the events
+     """
+     serializer_class = EventSerializer
+
+     def get_queryset(self):
+         return Event.objects.filter(index=self.kwargs['index'])
+
+
 class SpeakerView(generics.ListAPIView):
     """
         Returns the list of all the speakers
@@ -23,7 +33,7 @@ class ScheduleView(generics.ListAPIView):
             Returns the list of all the schedules
         """
     serializer_class = ScheduleSerializer
-    queryset = Schedule.objects.all()
+    queryset = Schedule.objects.all().reverse()
 
 
 class SpeakerYearView(generics.ListAPIView):

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-
+from talks import utils
 from talks.models import *
 
 
@@ -32,7 +32,8 @@ class SponsorSerializer(serializers.ModelSerializer):
 
 class ScheduleSerializer(serializers.ModelSerializer):
     speaker = SpeakerSerializer()
-    
+    # timestamp = utils.TimestampField(read_only=True, source='start_time')
+
     class Meta:
         model = Schedule
         fields = ('title', 'description', 'start_time', 'duration', 'type', 'speaker')

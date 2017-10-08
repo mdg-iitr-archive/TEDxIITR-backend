@@ -14,6 +14,9 @@ class Event(models.Model):
     def __str__(self):
         return self.theme
 
+    class Meta:
+        ordering = ('-timestamp',)
+
 
 class Speaker(models.Model):
     name = models.CharField(max_length=50)
@@ -66,3 +69,6 @@ class Schedule(models.Model):
 
     def __str__(self):
         return self.title
+
+    class Meta:
+        ordering = ('-start_time',)
