@@ -1,8 +1,11 @@
 # Created by .ignore support plugin (hsz.mobi)
 .env
 *.pycache
+*.pyo
+*.pyc
 .idea
 uploads/
+env
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
