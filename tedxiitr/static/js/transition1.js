@@ -67,7 +67,6 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.cdiv').mouseenter(function() {
         $('.cdiv .social_links').css('background-color', 'red');
-        $('.cdiv .speakerImg').attr('src', 'img/Group38b.png');
         $('.cdiv .speakerName').css('color', '#ff2b06');
         $('.cdiv .speakerJOB').css('color', '#000');
     });
@@ -200,7 +199,6 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.ndiv').mouseenter(function() {
         $('.ndiv .social_links').css('background-color', 'red');
-        $('.ndiv .speakerImg').attr('src', 'img/Group36b.png');
         $('.ndiv .speakerName').css('color', '#ff2b06');
         $('.ndiv .speakerJOB').css('color', '#000');
     });
