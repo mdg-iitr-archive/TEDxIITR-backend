@@ -11,9 +11,11 @@ class EventSerializer(serializers.ModelSerializer):
 
 class SpeakerSerializer(serializers.ModelSerializer):
     event_index = serializers.IntegerField(source='event.index')
+
     class Meta:
         model = Speaker
-        fields = ('name', 'designation', 'date', 'about', 'facebook', 'linkedin', 'twitter', 'profile_pic', 'event_index')
+        fields = (
+            'name', 'designation', 'date', 'about', 'facebook', 'linkedin', 'twitter', 'profile_pic', 'event_index')
 
 
 class OrganizerSerializer(serializers.ModelSerializer):
@@ -26,3 +28,11 @@ class SponsorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Sponsor
         fields = ('name', 'link', 'image')
+
+
+class ScheduleSerializer(serializers.ModelSerializer):
+    speaker_name = serializers.CharField(source='speaker.name')
+
+    class Meta:
+        model = Sponsor
+        fields = ('title', 'description', 'start_time', 'duration', 'type', 'speaker_name')

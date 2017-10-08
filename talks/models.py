@@ -14,6 +14,7 @@ class Event(models.Model):
     def __str__(self):
         return self.theme
 
+
 class Speaker(models.Model):
     name = models.CharField(max_length=50)
     designation = models.CharField(max_length=50)
@@ -27,6 +28,7 @@ class Speaker(models.Model):
 
     def __str__(self):
         return self.name
+
 
 class Organizer(models.Model):
     name = models.CharField(max_length=50)
@@ -48,3 +50,19 @@ class Sponsor(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Schedule(models.Model):
+    title = models.CharField(max_length=100)
+    description = models.CharField(max_length=500)
+    start_time = models.DateTimeField()
+    duration = models.IntegerField(default=30)
+    SCHEDULE_TYPES = (
+        ('df', 'Default'),
+        ('br', 'Break'),
+    )
+    type = models.CharField(max_length=7, choices=SCHEDULE_TYPES)
+    speaker = models.ForeignKey(Speaker, related_name='talk', blank=True, null=True)
+
+    def __str__(self):
+        return self.title

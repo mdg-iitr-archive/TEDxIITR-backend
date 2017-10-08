@@ -5,6 +5,7 @@ from tedxiitr import settings
 
 urlpatterns = [
     url('^events/$', views.EventView.as_view(), name='events'),
+    url('^schedule/$', views.ScheduleView.as_view(), name='schedule'),
     url('^speakers/$', views.SpeakerView.as_view(), name='speakers'),
     url('^speakers/year/(?P<year>[0-9]+)/$', views.SpeakerYearView.as_view(), name='speakers-year'),
     url('^speakers/event/(?P<event>[0-9]+)/$', views.SpeakerEventView.as_view(), name='speakers-event'),

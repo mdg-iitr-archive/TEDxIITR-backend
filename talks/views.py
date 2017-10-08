@@ -18,6 +18,14 @@ class SpeakerView(generics.ListAPIView):
     queryset = Speaker.objects.all()
 
 
+class ScheduleView(generics.ListAPIView):
+    """
+            Returns the list of all the speakers
+        """
+    serializer_class = ScheduleSerializer
+    queryset = Speaker.objects.all()
+
+
 class SpeakerYearView(generics.ListAPIView):
     """
         Returns the list of speakers year-wise
