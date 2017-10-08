@@ -35,7 +35,7 @@ class SpeakerEventView(generics.ListAPIView):
     serializer_class = SpeakerSerializer
 
     def get_queryset(self):
-        return Speaker.objects.filter(event__id=self.kwargs['event'])
+        return Speaker.objects.filter(event__index=self.kwargs['event'])
 
 
 class OrganizerView(generics.ListAPIView):
@@ -61,4 +61,4 @@ class SponsorsEventView(generics.ListAPIView):
     serializer_class = SponsorSerializer
 
     def get_queryset(self):
-        return Speaker.objects.filter(event__id=self.kwargs['event'])
+        return Speaker.objects.filter(event__index=self.kwargs['event'])
